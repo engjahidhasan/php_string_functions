@@ -43,3 +43,19 @@ echo PHP_EOL;
 $substring = "Hello World";
 $length = strlen($substring);
 echo substr($substring,$length-5);//$substring,1,5
+echo PHP_EOL;
+//String Reverse
+
+$str_reverse = "Hello Jahid";
+
+//Example 1
+$length = strlen($str_reverse)-1;
+for($i=$length;$i>=0;$i--){
+    echo $str_reverse[$i];
+    
+}
+echo PHP_EOL;
+
+//Example 2
+$str_rev2 = "Hello World";
+echo strrev($str_rev2);
